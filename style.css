@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn-container button {
+    padding: 6px 10px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+}
+
+.nav-container {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container {
+    width: 440px;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(0, 145, 255);
+    border: 1px solid gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#colorPickerBtn {
+    width: 50px;
+    border: none;
+    padding: 0;
+}
